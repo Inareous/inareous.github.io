@@ -262,7 +262,7 @@
             }
 
             var toReplace
-            if (this.status == 403) {
+            if (this.status == 403 || this.status == 200) {
                 toReplace = 'running'
             } else {
                 toReplace = 'not running'
